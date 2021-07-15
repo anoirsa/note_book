@@ -1,0 +1,98 @@
+.footer-container {
+    width: 100%;
+    height: 50vw;
+    background : rgb(36, 35, 35);
+    color : #ffffff;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+}
+
+.introduction-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 40px;
+    height : 40%;
+    
+}
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height : 60%;
+    padding-right : 5rem;
+    padding-left : 5rem;
+    padding-top : 2rem;
+
+}
+
+.details--container {
+    width: 100%;
+    height:75%;
+    display : grid;
+    grid-template-columns : repeat(4, auto);
+    gap : 20px;
+
+}
+
+.linki {
+    text-decoration: none;
+    color: #fff;
+}
+
+.details--container > div {
+    height : 100%;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.details--container > div > h3 {
+    margin-bottom: 2rem;
+}
+
+.contact-container {
+    height : 35%;
+    width:100%;
+    display : grid;
+    grid-template-columns : 1fr 1fr 4fr;
+    gap:60px;
+}
+.contact-container > div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    display : flex;
+    align-items : center;
+    gap : 3px;
+    font-size: 1rem;
+}
+
+.link--item{
+    text-decoration: none;
+    color:#ffffff;
+    font-size : 2rem
+}
+
+
+.email-input{
+    padding: 8px 20px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+    border: 1px solid #fff;
+}
+

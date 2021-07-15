@@ -1,0 +1,33 @@
+:root{
+    --primary : #fff
+}
+
+.btn-mobile{
+    height : 100%;
+    display : flex;
+    width: 100%;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+        
+}
+
+
+.btn--outline {
+    height: 80%;
+    display : flex;
+    width: 15vh;
+    align-items : center;
+    justify-content:center;
+    border : 2px solid #fff;
+    border-radius : 2%;
+}
+
+.btn--outline:hover{
+    background : #fff;
+    color: #242222;
+   
+}
+
+
+
